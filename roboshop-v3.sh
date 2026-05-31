@@ -5,12 +5,13 @@
 AMI_ID="ami-0220d79f3f480ecf5"
 ZONE_ID="Z08541483BXLDUSK4KJST" # replace with your zone ID
 DOMAIN_NAME="sujitha-daws.online" # replace with your domain name
+
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-ALL_INSTANCES="mongodb redis mysql rabbitmq catalogue user cart shipping payment frontend"
+ALL_INSTANCES="mangodb redis mysql rabbitmq catalogue user cart shipping payment frontend"
 
 ### Validation ###
 if [ $# -lt 2 ]; then
